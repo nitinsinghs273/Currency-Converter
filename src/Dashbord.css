@@ -1,0 +1,30 @@
+.Container {
+  width: 500px;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+}
+.FromCurr,
+.ToCurr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  margin-top: 50px;
+}
+.amount,
+.fromCur,
+.ToCur {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  width: 100%;
+  margin-top: 10px;
+}
